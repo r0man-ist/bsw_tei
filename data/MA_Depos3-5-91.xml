@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief an Wilhelm Hensel</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Angefertigt im Rahmen der Berlin Science Week</authority>
+            <date>2024-11-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</repository>
+                  <idno type="Signatur">MA Depos. 3,5</idno>
+                  <idno type="PPN">1878144588</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://www.wikidata.org/entity/Q57286">Mendelssohn, Fanny</persName>
+               <date notAfter="1829-04-04"/><note resp="#RK">Felix noch in Berlin</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://www.wikidata.org/entity/Q560757">Hensel, Wilhelm</persName>
+               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               
+            </correspAction>
+            <correspContext>
+               <ref type="prev" target="MA_Depos3-6-19.html"></ref>
+            </correspContext>
+         </correspDesc>
+
+      </profileDesc>
+
+   </teiHeader>
+
+   <text>
+      <pb
+         facs="https://content.staatsbibliothek-berlin.de/dc/PPN1878144588-00000183/full/full/0/default.png"/>
+      <body>
+         
+         <p>Wilhelm, lieber, geliebter <damage><gap unit="char" extent="10"></gap></damage> Wilhelm! So heut, nachdem ich Alles<lb/>
+            mit dir eingerichtet, von dir [1 Wort unleserlich] eine Urſache erfahren habe,<lb/>
+            wichtiger u. bedeutſamer als alle Gründe, die ich wußte.<lb/>
+            Lieber Wilhelm, ich weiß keine Urſache ferneren Aufschubes<lb/>
+            will auch keine wiſsen u. achten, denn du wirſt zugeben,<lb/>
+            daß die jetzige keine willkührlich geſuchte oder gefundene<lb/>
+            iſt. Sey gut, u. sey einmal vertrauend. Du betrübst mich recht. Komm<lb/>
+            heut ſo früh du kannſt, daß ich meine liebſte, angenehmſte Pflicht<lb/>
+            erfülle, deine Wolken zu zerſtreuen.<lb/>
+            Habe Dank für das Papier. Wenn ich noch ausgehe, fahre ich aus.<lb/>
+            Aber nicht mehr auf, wie geſtern, das denke ich, habe ich mir<lb/>
+            ſchon ſehr abgewöhnt, u. will es ganz ausrotten. Adieu Liebster<lb/>
+            Ich werde dich doch glücklich machen, du magst wollen oder nicht.<lb/>
+           </p>
+         <fw type="fol">91</fw>
+         
+         
+        
+      </body>
+   </text>
+</TEI>

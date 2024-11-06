@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Brief an Fanny Hensel, 11.02.1829</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Angefertigt im Rahmen der Berlin Science Week</authority>
+            <date>2024-11-04</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Berlin</settlement>
+                  <repository>Staatsbibliothek zu Berlin - Preußischer Kulturbesitz</repository>
+                  <idno type="Signatur">MA Depos. 3,6</idno>
+                  <idno type="PPN">1880377578</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://www.wikidata.org/entity/Q560757">Hensel, Wilhelm</persName>
+               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <date when="1829-02-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://www.wikidata.org/entity/Q57286">Mendelssohn, Fanny</persName>
+            </correspAction>
+         </correspDesc>
+         
+      </profileDesc>
+      
+   </teiHeader>
+   <standOff><listPerson><person xml:id="RebeckaMendelssohn"><persName>Rebecka Mendelssohn</persName><idno type="WikiData">http://www.wikidata.org/entity/Q95404</idno></person></listPerson></standOff>
+   <text>
+      <pb
+         facs="https://content.staatsbibliothek-berlin.de/dc/PPN1880377578-00000033/full/full/0/default.png"/>
+      <body>
+         <opener><dateline rend="right-align">Mittwoch d 11t Febr.</dateline></opener>
+         <lb/>
+         <fw rend="right-align" type="fol">12</fw>
+         <lb/>
+         <p>Allso, liebes, freundliches Schicksal, wie entscheidest<lb/>du? Hast du mit unsrer guten
+            Mutter Alles<lb/>wohl erwogen? Wo nicht, thus; hier die Briefe.<lb/>Wie hast du geruht?
+            Kurz u. gut, denk’ ich.<lb/>Unsre kleine <persName ref="http://www.wikidata.org/entity/Q95404">Tyrannin Schwester</persName> u. Herrn <persName ref="http://www.wikidata.org/entity/Q46096 http://www.wikidata.org/entity/Q2061251">Brüder</persName><lb/>auch,
+            oder schlaft Ihr noch Alle?<lb/></p>
+         <p>So erwart’ ich in gebührender Demuth<lb/>meine Entscheidung <unclear><choice><orig>den&#772;</orig><reg>denn</reg></choice></unclear>,
+            ohne wie, oder,<lb/>aber aber.<lb/></p>
+         <closer><salute>Guten Morgen!<lb/></salute><signed rend="right-align">Dein
+               Wilhelm.<lb/></signed></closer>
+         <postscript>
+            <p>Bestimme mir auch nochmals genau wann ich<lb/>Euch zu <persName
+                  ref="http://www.wikidata.org/entity/Q23059571">Tante Meyer</persName> abholen soll
+               u. ob ich<lb/>mit Pferdefüßen kommen darf, um die Engelfüßchen<lb/>unsres
+               Schwesterchens zu schonen. Ihr würd’ ichs<lb/>umgekehrt sagen.<lb/>Es hat sich doch
+               kein Kopfweh eingestellt. Verhüt’ es<lb/>Gott, aber <choice><orig>sey</orig><reg>sei</reg></choice> wahr u.<lb/>Denke nur nicht
+                  <hi rend="underline">heut</hi> die Geschenke für die Meinen zu besorgen, es
+               soll<lb/>furchtbar kalt <choice><orig>seyn</orig><reg>sei</reg></choice>, so scharfe Luft wie noch nicht war. Selbst wenn ich
+               reise<lb/>ist noch Morgen Zeit.</p>
+         </postscript>
+      </body>
+   </text>
+</TEI>
