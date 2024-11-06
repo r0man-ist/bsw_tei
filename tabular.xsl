@@ -171,6 +171,6 @@
     
     <xsl:template match="t:gap">
         <xsl:variable name="gap" select="./@extent"></xsl:variable>
-        <b title="[Lücke im Text von ca. {$gap} Zeichen länge]">[...]</b>
+        <b title="[Lücke im Text von ca. {$gap} Zeichen Länge]">[...]</b>
     </xsl:template>
 </xsl:stylesheet>
